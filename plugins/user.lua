@@ -1,4 +1,5 @@
 return {
+  "bluz71/vim-nightfly-colors",
   -- You can also add new plugins here as well:
   -- Add plugins, the lazy syntax
   -- "andweeb/presence.nvim",
@@ -9,4 +10,9 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "ashfinal/qfview.nvim",
+    event = "UIEnter",
+    config = true,
+  },
 }

@@ -33,4 +33,14 @@ return {
       })
     end,
   },
+  -- {
+  --   "cucumber_language_server",
+  --   opts = function (_, opts)
+  --     opts.filetypes = { "cucumber", "feature" }
+  --     opts.settings = {
+  --       features= {'**/*.feature'},
+  --       glue = {'**/step_defintions/*.js'},
+  --     }
+  --   end,
+  -- },
 }
