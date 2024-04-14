@@ -5,4 +5,5 @@ return {
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.motion.leap-nvim" },
+  { import = "astrocommunity.note-taking.obsidian-nvim", enabled = true },
 }

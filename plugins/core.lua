@@ -21,7 +21,22 @@ return {
     end,
   },
   -- You can disable default plugins as follows:
-  -- { "max397574/better-escape.nvim", enabled = false },
+  { "LuaSnip", enabled = true },
+  -- {
+  --   "epwalsh/obsidian.nvim",
+  --   -- ft = "markdown",
+  --   dependencies = {
+  --     -- Required.
+  --     "nvim-lua/plenary.nvim",
+  --   },
+  --   opts = {
+  --     workspaces = {
+  --       name = "GUL",
+  --       path = "~/Library/Mobile Documents/iCloud~md~obsidian/Documents/GUL",
+  --     },
+  --   },
+  -- },
+  -- { "lewis6991/gitsigns.nvim", enabled = false },
   --
   -- You can also easily customize additional setup of plugins that is outside of the plugin's setup call
   -- {
